@@ -28,3 +28,8 @@ h1{
     font-family: danger;
     color: rgba(0, 0, 0, 0.794);
 }
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.526);
+}
