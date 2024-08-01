@@ -1,0 +1,30 @@
+@font-face {
+    font-family:danger ;
+    src: url('HelloValentina.ttf');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body,main{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: greenyellow;
+    background: url('wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-image: url(https://ih1.redbubble.net/image.5237458111.4222/flat,750x,075,f-pad,750x1000,f8f8f8.jpg); */
+    /* background-repeat: no-repeat; */
+}
+h1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 300px;
+    font-family: danger;
+    color: rgba(0, 0, 0, 0.794);
+}
